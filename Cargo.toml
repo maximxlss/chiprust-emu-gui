@@ -1,8 +1,11 @@
 [package]
 name = "chiprust-emu-gui"
+description = "Experimental GUI for chiprust-emu"
+repository = "https://github.com/maximxlss/chiprust-emu-gui"
 version = "0.1.0"
 authors = ["Maxim Kuznetsov <maximxlssoff@gmail.com>"]
 edition = "2018"
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "lib"]
