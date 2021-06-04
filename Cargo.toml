@@ -7,9 +7,6 @@ authors = ["Maxim Kuznetsov <maximxlssoff@gmail.com>"]
 edition = "2018"
 license = "MIT"
 
-[lib]
-crate-type = ["cdylib", "lib"]
-
 [dependencies]
 chiprust-emu = "0.2.1"
 rodio = { version = "0.13.1", optional = true }
